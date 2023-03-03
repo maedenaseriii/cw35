@@ -1,0 +1,30 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid lightgray;
+}
+.todo__btn{
+    display: flex;
+    gap: 0.5rem;
+}
+.todo__btn button{
+    border-style: none;
+    width: 24px;
+    height: 24px;
+    color: white;
+    border-radius: 5px;
+}
+.todo__btn button:nth-child(1){
+    background-color:#DA3544;
+}
+.todo__btn button:nth-child(2){
+    background-color:#0D6EFD;
+}
+.todo__title{
+    width: 200px;
+}
+.todo input{
+    margin-left:-130px;
+}
